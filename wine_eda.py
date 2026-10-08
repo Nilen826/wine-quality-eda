@@ -3,7 +3,7 @@ import numpy as np
 import matplotlib.pyplot as plt
 import seaborn as sns
 
-df = pd.read_csv("winequalityN.csv.csv")  # use your actual filename
+df = pd.read_csv("winequalityN.csv.csv")
 print(df.head())
 # Shape
 print("Shape:", df.shape)
